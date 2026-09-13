@@ -23,7 +23,7 @@ export default function DesignSystemPage() {
   return (
     <DesignChrome
       title="Brand & Design System"
-      subtitle="Reusable tokens and components for KIUTESA, using Kampala International University blue and gold."
+      subtitle="Reusable tokens and components for KIUTESA, using club green and gold."
     >
       <div className="space-y-12">
         <section>
@@ -139,7 +139,7 @@ export default function DesignSystemPage() {
           <h2 className="font-display text-xl font-semibold">Light & dark concepts</h2>
           <p className="mt-2 text-sm text-muted-foreground">
             Use the theme toggle in the header. Light mode prioritizes airy campus energy;
-            dark mode keeps KIU blue surfaces for evening events and QR display.
+            dark mode keeps green surfaces for evening events and QR display.
           </p>
           <Tabs defaultValue="a11y" className="mt-4">
             <TabsList>
