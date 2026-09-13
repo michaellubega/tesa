@@ -11,7 +11,7 @@ export default function ClaimPage() {
       <ClubLogo size="sm" className="mb-6" />
       <div className="rounded-2xl border bg-card p-5 text-center shadow-sm">
         <div className="mx-auto inline-flex rounded-xl bg-white p-3">
-          <QRCodeSVG value="https://kiutesa.org/claim/QR-B1C3-2M" size={120} fgColor="#003087" />
+          <QRCodeSVG value="https://kiutesa.org/claim/QR-B1C3-2M" size={120} fgColor="#0B6E4F" />
         </div>
         <p className="mt-3 text-sm text-muted-foreground">Reference</p>
         <p className="font-mono text-lg font-semibold">QR-B1C3-2M</p>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {
   BarChart3,
+  CreditCard,
   Gift,
   LayoutDashboard,
   Megaphone,
@@ -16,6 +17,7 @@ import { ClubLogo } from "@/components/club-logo";
 const links = [
   { label: "Dashboard", href: "/prototype/admin", icon: LayoutDashboard },
   { label: "QR Codes", href: "/prototype/admin/qr", icon: QrCode },
+  { label: "Cards", href: "/prototype/admin/cards", icon: CreditCard },
   { label: "Members", href: "/prototype/admin/members", icon: Users },
   { label: "Events", href: "/prototype/admin/events", icon: Calendar },
   { label: "Benefits", href: "/prototype/admin/benefits", icon: Gift },

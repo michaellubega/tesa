@@ -11,7 +11,7 @@ import { MembershipCard } from "@/components/prototype/membership-card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const colors = [
-  { name: "Primary", varName: "bg-primary", note: "KIU deep blue — primary brand" },
+  { name: "Primary", varName: "bg-primary", note: "Club green — primary brand" },
   { name: "Gold", varName: "bg-gold", note: "KIU gold — secondary accent" },
   { name: "Success", varName: "bg-success", note: "Active / claimed" },
   { name: "Warning", varName: "bg-warning", note: "Pending / suspended" },

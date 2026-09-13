@@ -13,8 +13,10 @@ export default function AdminQrPage() {
         <div className="flex gap-2">
           <Button size="sm">Generate single</Button>
           <Button size="sm" variant="secondary">Generate batch</Button>
-          <Button size="sm" variant="outline">Export</Button>
-          <Button size="sm" variant="outline">Print cards</Button>
+          <Button size="sm" variant="outline" render={<a href="/prototype/admin/cards" />}>
+            Download cards
+          </Button>
+          <Button size="sm" variant="outline">Export list</Button>
         </div>
       }
     >

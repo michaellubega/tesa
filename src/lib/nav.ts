@@ -71,6 +71,7 @@ export const memberScreens: NavItem[] = [
 export const adminScreens: NavItem[] = [
   { section: "Admin", title: "Dashboard", href: "/prototype/admin", description: "KPIs & quick actions" },
   { section: "Admin", title: "QR Management", href: "/prototype/admin/qr", description: "Generate, print, audit" },
+  { section: "Admin", title: "Membership cards", href: "/prototype/admin/cards", description: "Download front & back" },
   { section: "Admin", title: "Members", href: "/prototype/admin/members", description: "Verify & manage" },
   { section: "Admin", title: "Events", href: "/prototype/admin/events", description: "Create & attendance" },
   { section: "Admin", title: "Benefits", href: "/prototype/admin/benefits", description: "Configure offers" },
