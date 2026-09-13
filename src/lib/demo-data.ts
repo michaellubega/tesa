@@ -11,7 +11,7 @@ export const club = {
 };
 
 export const currentMember = {
-  id: "KIU-2026-0842",
+  id: "2025-08-41310",
   name: "Amara Okonkwo",
   displayName: "Amara O.",
   email: "amara.okonkwo@kiu.ac.ug",
@@ -39,7 +39,7 @@ export const currentMember = {
 
 export const members = [
   {
-    id: "KIU-2026-0711",
+    id: "2025-08-41201",
     name: "Jordan Lee",
     role: "Club President",
     department: "Business",
@@ -52,7 +52,7 @@ export const members = [
     mutual: 8,
   },
   {
-    id: "KIU-2026-0550",
+    id: "2024-08-38902",
     name: "Priya Nair",
     role: "Events Lead",
     department: "Computer Science",
@@ -65,7 +65,7 @@ export const members = [
     mutual: 5,
   },
   {
-    id: "KIU-2026-0920",
+    id: "2025-01-40118",
     name: "Marcus Chen",
     role: "Member",
     department: "Engineering",
@@ -78,7 +78,7 @@ export const members = [
     mutual: 3,
   },
   {
-    id: "KIU-2026-0334",
+    id: "2023-08-35144",
     name: "Sofia Alvarez",
     role: "Communications",
     department: "Media Studies",
@@ -91,7 +91,7 @@ export const members = [
     mutual: 6,
   },
   {
-    id: "KIU-2026-0188",
+    id: "2025-08-42007",
     name: "Noah Patel",
     role: "Member",
     department: "Computer Science",

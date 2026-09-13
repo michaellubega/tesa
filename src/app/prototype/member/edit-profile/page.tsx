@@ -20,7 +20,7 @@ export default function EditProfilePage() {
         <div className="space-y-1.5"><Label>Bio</Label><Textarea defaultValue={currentMember.bio} /></div>
       </Section>
       <Section title="Academic details">
-        <Field label="Student number" defaultValue="RU-204918" />
+        <Field label="Student number" defaultValue="2025-08-41310" />
         <Field label="Faculty" defaultValue={currentMember.faculty} />
         <Field label="Department" defaultValue={currentMember.department} />
         <Field label="Course" defaultValue={currentMember.course} />

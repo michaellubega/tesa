@@ -66,8 +66,8 @@ export default function RegisterPage() {
       {step === 1 && (
         <div className="space-y-3">
           <div className="space-y-1.5">
-            <Label>Student / membership number</Label>
-            <Input defaultValue="KIU-204918" />
+            <Label>Student number</Label>
+            <Input defaultValue="2025-08-41310" />
           </div>
           <div className="space-y-1.5">
             <Label>Faculty</Label>

@@ -63,7 +63,7 @@ export default function DesignSystemPage() {
                 controls.
               </p>
               <p className="mt-3 font-mono text-sm text-muted-foreground">
-                Member ID · KIU-2026-0842
+                Member ID · 2025-08-41310
               </p>
             </div>
           </div>
