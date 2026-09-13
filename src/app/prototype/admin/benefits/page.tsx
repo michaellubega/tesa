@@ -8,7 +8,7 @@ export default function AdminBenefitsPage() {
       <div className="grid gap-3 md:grid-cols-2">
         {benefits.map((b) => (
           <div key={b.id} className="rounded-xl border bg-background p-4">
-            <p className="text-xs font-medium text-teal">{b.category}</p>
+            <p className="text-xs font-medium text-gold">{b.category}</p>
             <p className="font-semibold">{b.title}</p>
             <p className="mt-1 text-sm text-muted-foreground">{b.eligibility}</p>
             <div className="mt-3 flex gap-2">

@@ -18,7 +18,7 @@ export default function NotificationsPage() {
           {notifications.map((n) => (
             <li key={n.id} className={`rounded-xl border p-3 ${n.unread ? "bg-primary/5 border-primary/20" : "bg-card"}`}>
               <div className="flex justify-between gap-2">
-                <p className="text-xs font-medium text-teal">{n.category}</p>
+                <p className="text-xs font-medium text-gold">{n.category}</p>
                 <span className="text-xs text-muted-foreground">{n.time}</span>
               </div>
               <p className={`mt-1 text-sm ${n.unread ? "font-medium" : ""}`}>{n.title}</p>

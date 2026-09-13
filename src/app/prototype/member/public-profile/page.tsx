@@ -16,7 +16,7 @@ export default function PublicProfilePage() {
         Opened from QR scan · Showing public information only
       </p>
       <div className="text-center">
-        <div className="mx-auto flex size-20 items-center justify-center rounded-full bg-teal/15 text-2xl font-semibold text-teal">
+        <div className="mx-auto flex size-20 items-center justify-center rounded-full bg-gold/15 text-2xl font-semibold text-gold">
           {m.photoInitials}
         </div>
         <h2 className="mt-3 font-display text-xl font-semibold">{m.name}</h2>

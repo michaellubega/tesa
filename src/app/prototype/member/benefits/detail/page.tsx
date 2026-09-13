@@ -10,7 +10,7 @@ export default function BenefitDetailPage() {
   return (
     <ScreenScroll className="pt-1">
       <ScreenHeader title="Benefit" backHref="/prototype/member/benefits" />
-      <p className="text-xs font-medium text-teal">{b.category}</p>
+      <p className="text-xs font-medium text-gold">{b.category}</p>
       <h2 className="font-display text-2xl font-semibold">{b.title}</h2>
       <p className="mt-2 text-sm text-muted-foreground">{b.description}</p>
       <dl className="mt-5 space-y-2 text-sm">

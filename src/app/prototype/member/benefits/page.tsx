@@ -16,7 +16,7 @@ export default function BenefitsPage() {
           {benefits.map((b) => (
             <li key={b.id}>
               <Link href="/prototype/member/benefits/detail" className="block rounded-xl border bg-card p-4">
-                <p className="text-xs font-medium text-teal">{b.category}</p>
+                <p className="text-xs font-medium text-gold">{b.category}</p>
                 <p className="font-display font-semibold">{b.title}</p>
                 <p className="mt-1 text-sm text-muted-foreground">{b.description}</p>
               </Link>

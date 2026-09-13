@@ -10,7 +10,7 @@ export default function AdminSettingsPage() {
         <div className="space-y-1.5"><Label>Club name</Label><Input defaultValue="KIUTESA" /></div>
         <div className="space-y-1.5"><Label>Full name</Label><Input defaultValue="Kampala International University Technology Student Association" /></div>
         <div className="space-y-1.5"><Label>University</Label><Input defaultValue="Kampala International University" /></div>
-        <div className="space-y-1.5"><Label>Primary brand color</Label><Input defaultValue="#3B3478" /></div>
+        <div className="space-y-1.5"><Label>Primary brand color</Label><Input defaultValue="#003087" /></div>
         <div className="space-y-1.5"><Label>Support email</Label><Input defaultValue="membership@kiutesa.org" /></div>
         <Button>Save settings</Button>
       </div>

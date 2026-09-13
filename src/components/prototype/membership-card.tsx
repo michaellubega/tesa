@@ -19,7 +19,7 @@ export function MembershipCard({
       <div
         className={cn(
           "relative overflow-hidden rounded-2xl border bg-card p-5 shadow-md",
-          "bg-gradient-to-br from-primary/5 via-card to-teal/10",
+          "bg-gradient-to-br from-primary/5 via-card to-gold/10",
           className,
         )}
       >
@@ -32,7 +32,7 @@ export function MembershipCard({
             size={148}
             level="M"
             bgColor="#ffffff"
-            fgColor="#2a2458"
+            fgColor="#003087"
           />
         </div>
         <p className="mt-3 text-center font-mono text-sm">{currentMember.id}</p>
@@ -47,12 +47,12 @@ export function MembershipCard({
     <div
       className={cn(
         "relative overflow-hidden rounded-2xl p-5 text-primary-foreground shadow-lg",
-        "bg-gradient-to-br from-[oklch(0.32_0.12_286)] via-[oklch(0.38_0.14_286)] to-[oklch(0.42_0.1_220)]",
+        "bg-gradient-to-br from-[oklch(0.28_0.11_255)] via-[oklch(0.35_0.12_255)] to-[oklch(0.55_0.12_85)]",
         className,
       )}
     >
       <div className="pointer-events-none absolute -right-8 -top-8 size-40 rounded-full bg-white/10" />
-      <div className="pointer-events-none absolute -bottom-10 left-10 size-32 rounded-full bg-teal/20" />
+      <div className="pointer-events-none absolute -bottom-10 left-10 size-32 rounded-full bg-gold/20" />
       <div className="relative flex items-start justify-between">
         <div>
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/70">
@@ -114,7 +114,7 @@ export function QrDisplay({
           size={size}
           level="M"
           bgColor="#ffffff"
-          fgColor="#2a2458"
+          fgColor="#003087"
         />
       </div>
       {label && (

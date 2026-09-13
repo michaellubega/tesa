@@ -23,7 +23,7 @@ export default function EventsPage() {
           {upcoming.filter((e) => e.featured).map((e) => (
             <Link key={e.id} href="/prototype/member/events/detail" className="block rounded-2xl border bg-card p-4 shadow-sm">
               <div className="mb-2 flex items-center justify-between gap-2">
-                <span className="text-xs font-medium text-teal">{e.category}</span>
+                <span className="text-xs font-medium text-gold">{e.category}</span>
                 <StatusBadge status={e.status} />
               </div>
               <p className="font-display font-semibold">{e.title}</p>

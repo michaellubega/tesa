@@ -11,7 +11,7 @@ export default function EventDetailPage() {
   return (
     <ScreenScroll className="pt-1">
       <ScreenHeader title="Event" backHref="/prototype/member/events" />
-      <div className="mb-4 h-36 rounded-2xl bg-gradient-to-br from-primary/80 to-teal/60 p-4 text-primary-foreground">
+      <div className="mb-4 h-36 rounded-2xl bg-gradient-to-br from-primary/80 to-gold/60 p-4 text-primary-foreground">
         <p className="text-xs uppercase tracking-wider text-white/80">{e.category}</p>
         <h2 className="mt-8 font-display text-2xl font-semibold">{e.title}</h2>
       </div>

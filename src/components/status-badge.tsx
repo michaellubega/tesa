@@ -4,8 +4,8 @@ import { cn } from "@/lib/utils";
 const styles: Record<string, string> = {
   Active: "bg-success/15 text-success border-success/30",
   Claimed: "bg-success/15 text-success border-success/30",
-  Available: "bg-teal/15 text-teal border-teal/30",
-  Unclaimed: "bg-teal/15 text-teal border-teal/30",
+  Available: "bg-gold/15 text-gold border-gold/30",
+  Unclaimed: "bg-gold/15 text-gold border-gold/30",
   Pending: "bg-warning/20 text-warning-foreground border-warning/40",
   Suspended: "bg-warning/20 text-warning-foreground border-warning/40",
   Expired: "bg-muted text-muted-foreground",
@@ -14,7 +14,7 @@ const styles: Record<string, string> = {
   Verified: "bg-primary/10 text-primary border-primary/25",
   Important: "bg-destructive/10 text-destructive border-destructive/20",
   Registered: "bg-primary/10 text-primary border-primary/25",
-  Open: "bg-teal/15 text-teal border-teal/30",
+  Open: "bg-gold/15 text-gold border-gold/30",
   Attended: "bg-muted text-muted-foreground",
 };
 

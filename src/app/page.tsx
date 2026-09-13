@@ -22,7 +22,7 @@ export default function HomePage() {
     <DesignChrome>
       <section className="grid items-center gap-10 pb-12 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
-          <p className="mb-3 text-sm font-medium text-teal">Design prototype · UI/UX first</p>
+          <p className="mb-3 text-sm font-medium text-gold">Design prototype · UI/UX first</p>
           <ClubLogo size="lg" className="mb-6" />
           <h1 className="font-display text-4xl font-semibold tracking-tight md:text-5xl">
             {club.tagline}

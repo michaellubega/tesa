@@ -57,7 +57,7 @@ export default function QrStatesPage() {
     >
       <div className="mb-8 rounded-2xl border bg-card p-6 md:flex md:items-center md:gap-8">
         <div className="mx-auto w-fit rounded-xl bg-white p-4">
-          <QRCodeSVG value="https://kiutesa.org/m/token-only" size={140} fgColor="#2a2458" />
+          <QRCodeSVG value="https://kiutesa.org/m/token-only" size={140} fgColor="#003087" />
         </div>
         <div className="mt-4 md:mt-0">
           <h2 className="font-display text-xl font-semibold">Design principle</h2>

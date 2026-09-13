@@ -11,8 +11,8 @@ import { MembershipCard } from "@/components/prototype/membership-card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const colors = [
-  { name: "Primary", varName: "bg-primary", note: "Deep indigo — club brand" },
-  { name: "Teal", varName: "bg-teal", note: "Secondary accent" },
+  { name: "Primary", varName: "bg-primary", note: "KIU deep blue — primary brand" },
+  { name: "Gold", varName: "bg-gold", note: "KIU gold — secondary accent" },
   { name: "Success", varName: "bg-success", note: "Active / claimed" },
   { name: "Warning", varName: "bg-warning", note: "Pending / suspended" },
   { name: "Destructive", varName: "bg-destructive", note: "Error / revoked" },
@@ -23,7 +23,7 @@ export default function DesignSystemPage() {
   return (
     <DesignChrome
       title="Brand & Design System"
-      subtitle="Reusable tokens and components for KIUTESA. Swap primary for any club brand color without redesigning layouts."
+      subtitle="Reusable tokens and components for KIUTESA, using Kampala International University blue and gold."
     >
       <div className="space-y-12">
         <section>
@@ -139,7 +139,7 @@ export default function DesignSystemPage() {
           <h2 className="font-display text-xl font-semibold">Light & dark concepts</h2>
           <p className="mt-2 text-sm text-muted-foreground">
             Use the theme toggle in the header. Light mode prioritizes airy campus energy;
-            dark mode keeps indigo surfaces for evening events and QR display.
+            dark mode keeps KIU blue surfaces for evening events and QR display.
           </p>
           <Tabs defaultValue="a11y" className="mt-4">
             <TabsList>
