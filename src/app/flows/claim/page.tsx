@@ -10,6 +10,8 @@ export default function Page() {
         "Resolve secure token → friendly QR reference",
         "Status = Available to Claim?",
         "Yes → Show benefits + Claim CTA",
+        "Set 4-digit card PIN (protect membership card)",
+        "Confirm PIN",
         "New user? → Registration · Existing? → Sign in",
         "Bind QR to member identity (permanent)",
         "Issue digital membership + success screen",

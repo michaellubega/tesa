@@ -13,8 +13,8 @@ export default function SuccessPage() {
       </div>
       <h1 className="font-display text-2xl font-semibold">Welcome, {currentMember.name.split(" ")[0]}!</h1>
       <p className="mt-2 text-sm text-muted-foreground">
-        Your digital club identity is ready. QR {currentMember.qrRef} is now permanently linked to
-        your membership.
+        Your digital club identity is ready. QR {currentMember.qrRef} is linked to your membership.
+        Your card PIN protects the card; your account password signs you in and updates your profile.
       </p>
       <div className="mx-auto mt-4 flex size-20 items-center justify-center rounded-full bg-primary/15 text-2xl font-semibold text-primary">
         {currentMember.photoInitials}
@@ -27,7 +27,7 @@ export default function SuccessPage() {
         <Button className="w-full" render={<Link href="/prototype/member/profile" />}>
           View my profile
         </Button>
-        <Button className="w-full" variant="outline" render={<Link href="/prototype/member/card" />}>
+        <Button className="w-full" variant="outline" render={<Link href="/prototype/member/unlock-card" />}>
           View membership card
         </Button>
         <Button className="w-full" variant="outline" render={<Link href="/prototype/member/benefits" />}>

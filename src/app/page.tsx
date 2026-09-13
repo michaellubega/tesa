@@ -95,7 +95,7 @@ export default function HomePage() {
       <section className="rounded-2xl border bg-primary px-6 py-8 text-primary-foreground md:px-10">
         <h2 className="font-display text-2xl font-semibold">Prototype journeys to click through</h2>
         <ol className="mt-4 grid gap-3 text-sm text-primary-foreground/90 md:grid-cols-2">
-          <li>1. Landing → Claim QR → Register → Success → Home</li>
+          <li>1. Landing → Claim QR → Set card PIN → Register (account password) → Success → Home</li>
           <li>2. Home → Membership Card → My QR → Public Profile</li>
           <li>3. Discover → Connect → Messages</li>
           <li>4. Events → Detail → My Events</li>

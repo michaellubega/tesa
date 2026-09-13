@@ -6,12 +6,12 @@ const journeys = [
   {
     title: "Claim a QR code",
     href: "/flows/claim",
-    steps: ["Scan / open link", "See Available status", "Create account or sign in", "Confirm claim"],
+    steps: ["Scan / open link", "Set 4-digit card PIN", "Create account password", "Confirm claim"],
   },
   {
     title: "Complete registration",
     href: "/flows/register",
-    steps: ["Account", "Student info", "Profile", "Consent & claim"],
+    steps: ["Password for profile edits", "Student info", "Profile", "Consent & claim"],
   },
   {
     title: "View a public profile",

@@ -44,6 +44,15 @@ export default function EditProfilePage() {
         <Toggle label="Allow members to contact me" defaultChecked />
         <Toggle label="Allow profile discovery" defaultChecked />
       </Section>
+      <Section title="Confirm with account password">
+        <p className="mb-2 text-xs text-muted-foreground">
+          Profile changes require your account password (not your 4-digit card PIN).
+        </p>
+        <div className="space-y-1.5">
+          <Label>Account password</Label>
+          <Input type="password" placeholder="Enter password to confirm changes" autoComplete="current-password" />
+        </div>
+      </Section>
       <div className="mt-4 flex gap-2 pb-4">
         <Button variant="outline" className="flex-1" render={<Link href="/prototype/member/profile" />}>Cancel</Button>
         <Button className="flex-1" render={<Link href="/prototype/member/profile" />}>Save changes</Button>

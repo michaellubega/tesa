@@ -61,7 +61,7 @@ export default function HomePage() {
 
         <div className="mb-4 grid grid-cols-2 gap-2">
           <Link
-            href="/prototype/member/card"
+            href="/prototype/member/unlock-card"
             className="flex items-center gap-2 rounded-xl border bg-primary p-3 text-primary-foreground"
           >
             <CreditCard className="size-5" />

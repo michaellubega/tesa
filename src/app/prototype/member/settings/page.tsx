@@ -12,9 +12,16 @@ export default function SettingsPage() {
         <ScreenHeader title="Settings & privacy" backHref="/prototype/member/profile" />
         <Group title="Account">
           <Item label="Email & phone" href="/prototype/member/edit-profile" />
-          <Item label="Password & security" />
+          <Item label="Account password (profile updates)" />
           <Item label="Sign out" />
           <Item label="Delete account" danger />
+        </Group>
+        <Group title="Membership card PIN">
+          <Item label="Change 4-digit card PIN" href="/prototype/member/set-pin" />
+          <Item label="Unlock card" href="/prototype/member/unlock-card" />
+          <p className="px-3 py-2 text-xs text-muted-foreground">
+            Card PIN opens your digital card. Account password signs you in and lets you edit your profile.
+          </p>
         </Group>
         <Group title="Profile privacy">
           <Toggle label="Profile visible to members" defaultChecked />

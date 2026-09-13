@@ -33,9 +33,12 @@ export default function ClaimPage() {
       </ul>
 
       <div className="mt-6 space-y-3">
-        <Button className="w-full" size="lg" render={<Link href="/prototype/member/register" />}>
+        <Button className="w-full" size="lg" render={<Link href="/prototype/member/set-pin" />}>
           Claim this QR code
         </Button>
+        <p className="text-center text-xs text-muted-foreground">
+          First you’ll set a 4-digit PIN to protect your membership card.
+        </p>
         <Button
           className="w-full"
           variant="outline"

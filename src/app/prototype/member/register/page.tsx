@@ -18,7 +18,12 @@ export default function RegisterPage() {
 
   return (
     <ScreenScroll className="pt-1">
-      <ScreenHeader title="Create your membership" backHref="/prototype/member/claim" action={<span />} />
+      <ScreenHeader
+        title="Create your membership"
+        backHref={step === 0 ? "/prototype/member/set-pin" : undefined}
+        action={<span />}
+        subtitle={step === 0 ? "Account password protects profile edits" : undefined}
+      />
       <div className="mb-4">
         <div className="mb-2 flex justify-between text-xs font-medium text-muted-foreground">
           <span>
@@ -31,17 +36,28 @@ export default function RegisterPage() {
 
       {step === 0 && (
         <div className="space-y-3">
-          <div className="space-y-1.5">
-            <Label>Full name</Label>
-            <Input defaultValue="Amara Okonkwo" />
+          <div className="rounded-xl border border-primary/20 bg-primary/5 px-3 py-2.5 text-xs text-muted-foreground">
+            Card PIN is already set. Now create your <span className="font-medium text-foreground">account password</span> —
+            used to sign in and update your profile later.
           </div>
           <div className="space-y-1.5">
-            <Label>University email</Label>
-            <Input type="email" defaultValue="amara.okonkwo@kiu.ac.ug" />
+            <Label htmlFor="name">Full name</Label>
+            <Input id="name" defaultValue="Amara Okonkwo" />
           </div>
           <div className="space-y-1.5">
-            <Label>Password</Label>
-            <Input type="password" defaultValue="••••••••" />
+            <Label htmlFor="email">University email</Label>
+            <Input id="email" type="email" defaultValue="amara.okonkwo@kiu.ac.ug" />
+          </div>
+          <div className="space-y-1.5">
+            <Label htmlFor="password">Account password</Label>
+            <Input id="password" type="password" defaultValue="••••••••" autoComplete="new-password" />
+            <p className="text-xs text-muted-foreground">
+              Required to sign in and to edit or update your profile. Separate from your 4-digit card PIN.
+            </p>
+          </div>
+          <div className="space-y-1.5">
+            <Label htmlFor="confirm">Confirm password</Label>
+            <Input id="confirm" type="password" defaultValue="••••••••" autoComplete="new-password" />
           </div>
           <p className="text-xs text-muted-foreground">We’ll send a verification code to your email.</p>
         </div>
@@ -51,11 +67,11 @@ export default function RegisterPage() {
         <div className="space-y-3">
           <div className="space-y-1.5">
             <Label>Student / membership number</Label>
-            <Input defaultValue="RU-204918" />
+            <Input defaultValue="KIU-204918" />
           </div>
           <div className="space-y-1.5">
             <Label>Faculty</Label>
-            <Input defaultValue="School of Computing" />
+            <Input defaultValue="School of Computing and Information Technology" />
           </div>
           <div className="space-y-1.5">
             <Label>Course / program</Label>
@@ -105,6 +121,10 @@ export default function RegisterPage() {
             <p className="font-medium">Amara Okonkwo</p>
             <p className="text-muted-foreground">BSc Computer Science · Year 3</p>
             <p className="mt-2 font-mono text-xs">Claiming QR-B1C3-2M</p>
+            <ul className="mt-3 space-y-1 text-xs text-muted-foreground">
+              <li>· Card PIN set (4 digits) — unlocks membership card</li>
+              <li>· Account password set — sign-in & profile updates</li>
+            </ul>
           </div>
           <label className="flex items-start gap-2">
             <input type="checkbox" className="mt-1" defaultChecked />

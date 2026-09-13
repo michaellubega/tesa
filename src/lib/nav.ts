@@ -41,10 +41,12 @@ export const designSections: { title: string; description: string; href: string 
 export const memberScreens: NavItem[] = [
   { section: "Onboarding", title: "Welcome / Landing", href: "/prototype/member/welcome", description: "Club intro & CTAs" },
   { section: "Onboarding", title: "Claim QR", href: "/prototype/member/claim", description: "Unclaimed QR entry" },
-  { section: "Onboarding", title: "Registration", href: "/prototype/member/register", description: "4-step signup" },
+  { section: "Onboarding", title: "Set card PIN", href: "/prototype/member/set-pin", description: "4-digit card protection" },
+  { section: "Onboarding", title: "Registration", href: "/prototype/member/register", description: "Account password + profile" },
   { section: "Onboarding", title: "Registration Success", href: "/prototype/member/success", description: "Digital identity created" },
   { section: "Core", title: "Home Dashboard", href: "/prototype/member/home", description: "Central hub" },
   { section: "Core", title: "Membership Card", href: "/prototype/member/card", description: "Front & back" },
+  { section: "Core", title: "Unlock card", href: "/prototype/member/unlock-card", description: "PIN to present card" },
   { section: "Core", title: "My QR Code", href: "/prototype/member/qr", description: "Share & fullscreen" },
   { section: "Core", title: "My Profile", href: "/prototype/member/profile", description: "Owner view" },
   { section: "Core", title: "Edit Profile", href: "/prototype/member/edit-profile", description: "Structured editing" },
